@@ -13,7 +13,7 @@ import numpy
 #
 # needlemanW Process:
 # 1. Create matrix
-# 2. Fill matrix with distance scores based on given values (0 for match, 1 for gap, 1 for mismatch)
+# 2. Fill matrix with distance scores based on given values
 # 3. Traceback starting a bottom right of matrix and work way backwards, taking least costly move (min)
 # 4. Add gaps if neccessary
 # 5. Reverse strings back, and output distance matrix
